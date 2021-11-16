@@ -34,7 +34,7 @@ To find a particular example you can also search by the name of a particular fig
 In cases where there are multiple competing standards to implement some concepts, we try to include all.
 Thus, there are sometimes multiple implementations per figure with different file extensions.
 
-Since many different file formats and standards are used in this repository, we try to include comments that point to documentation of the respecitve standards, indicate where you can try out the examples online, or otherwise where you can find code relating to the example and the discussion it the paper.
+Since many different file formats and standards are used in this repository, we include pointing to the documentation of the respective standards, indicate where you can try out the examples online, or otherwise where you can find code relating to the example.
 
 ## Resources
 
