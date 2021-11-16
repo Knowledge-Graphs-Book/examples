@@ -1,6 +1,6 @@
 # Knowledge graph paper examples
 
-This repository contains examples in concrete syntaxes for the Knowledge Graphs book by Hogan et al.
+This repository contains examples in concrete syntaxes for the Knowledge Graphs book by Hogan et al, which is [freely available online](https://kgbook.org/), with physical copies and ebooks available from [Morgan & Claypool](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1683).
 
 If you find any material in the book or this repository useful, please consider citing it as:
 
@@ -27,9 +27,9 @@ Sequeda, Juan F. and Staab, Steffen and Zimmermann, Antoine},
 
 ## Overview
 
-The book provides examples in an abstract graphical notation in order to be friendly to newcomers, and to avoid them getting "bogged down" in details relating to syntax.  Nevertheless, for newcomers that are interested to learn how these theoretical concepts are implemented in practice, in this repository we provide concrete code implementation of the examples and figures of our paper.
+The book provides examples in an abstract graphical notation in order to be friendly to newcomers, and to avoid them getting "bogged down" in details relating to syntax.  Nevertheless, for newcomers that are interested to learn how these theoretical concepts are implemented in practice, in this repository we provide concrete implementations of the examples and figures of our paper in various languages and syntaxes.
 
-The examples are divided into folders for each subsection according to the book.
+The examples are divided into folders for each subsection according to [the book](https://kgbook.org/).
 To find a particular example you can also search by the name of a particular figure in the repository (e.g., "figure4", "table2", etc.).
 In cases where there are multiple competing standards to implement some concepts, we try to include all.
 Thus, there are sometimes multiple implementations per figure with different file extensions.
