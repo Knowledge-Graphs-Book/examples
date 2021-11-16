@@ -1,49 +1,35 @@
 # Knowledge graph paper examples
 
-This repository contains examples in concrete syntaxes from the Knowledge Graphs paper (under review for ACM CSUR).
-See also the extended version of the paper: [Hogan, A., et al. (2020). Knowledge Graphs. arXiv preprint arXiv:2003.02320.](https://arxiv.org/abs/2003.02320)
+This repository contains examples in concrete syntaxes for the Knowledge Graphs book by Hogan et al.
 
-If you find any material in the paper or this repository useful, please cite it as:
+If you find any material in the book or this repository useful, please consider citing it as:
 
 ```bibtex
-@article{DBLP:journals/corr/abs-2003-02320,
-  author    = {Aidan Hogan and
-               Eva Blomqvist and
-               Michael Cochez and
-               Claudia d'Amato and
-               Gerard de Melo and
-               Claudio Guti{\'{e}}rrez and
-               Jos{\'{e}} Emilio Labra Gayo and
-               Sabrina Kirrane and
-               Sebastian Neumaier and
-               Axel Polleres and
-               Roberto Navigli and
-               Axel{-}Cyrille Ngonga Ngomo and
-               Sabbir M. Rashid and
-               Anisa Rula and
-               Lukas Schmelzeisen and
-               Juan F. Sequeda and
-               Steffen Staab and
-               Antoine Zimmermann},
-  title     = {Knowledge Graphs},
-  journal   = {CoRR},
-  volume    = {abs/2003.02320},
-  year      = {2020},
-  url       = {https://arxiv.org/abs/2003.02320},
-  archivePrefix = {arXiv},
-  eprint    = {2003.02320},
-  timestamp = {Thu, 26 Nov 2020 15:54:05 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2003-02320.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@book{kg-book,
+  author = {Hogan, Aidan and Blomqvist, Eva and Cochez, Michael and
+d'Amato, Claudia and de Melo, Gerard and Guti\'errez, Claudio and
+Kirrane, Sabrina and Labra Gayo, Jos\'e Emilio and Navigli, Roberto and
+Neumaier, Sebastian and Ngonga Ngomo, Axel-Cyrille and Polleres, Axel and
+Rashid, Sabbir M. and Rula, Anisa and Schmelzeisen, Lukas and
+Sequeda, Juan F. and Staab, Steffen and Zimmermann, Antoine},
+  doi = {10.2200/S01125ED1V01Y202109DSK022},
+  isbn = {9781636392363},
+  language = {English},
+  number = {22},
+  numpages = {237},
+  publisher = {Morgan \& Claypool},
+  series = {Synthesis Lectures on Data, Semantics, and Knowledge},
+  title = {{K}nowledge {G}raphs},
+  url = {https://kgbook.org/},
+  year = {2021}
 }
 ```
 
 ## Overview
 
-In the paper, we opted to keep examples on a high level, in order (1) to be able to focus on the respective theoretical concepts we are explaining, (2) to not confuse newcomers with possibly confusing low level details of concrete syntaxes, and (3) to have the paper still be understandable when currently popular syntaxes inevitable fall out of favor.
-Nevertheless, for newcomers that are interested to learn how these theoretical concepts are implemented in practice, in this repository we provide concrete code implementation of the examples and figures of our paper.
+The book provides examples in an abstract graphical notation in order to be friendly to newcomers, and to avoid them getting "bogged down" in details relating to syntax.  Nevertheless, for newcomers that are interested to learn how these theoretical concepts are implemented in practice, in this repository we provide concrete code implementation of the examples and figures of our paper.
 
-The examples are divided into folders for each subsection according to the ACM CSUR version of the paper.
+The examples are divided into folders for each subsection according to the book.
 To find a particular example you can also search by the name of a particular figure in the repository (e.g., "figure4", "table2", etc.).
 In cases where there are multiple competing standards to implement some concepts, we try to include all.
 Thus, there are sometimes multiple implementations per figure with different file extensions.
@@ -52,7 +38,7 @@ Since many different file formats and standards are used in this repository, we 
 
 ## Resources
 
-The following is a list of resources linked to in the respective examples:
+The following is a list of resources tht the respective examples link to:
 
 * [RDFShape](https://rdfshape.weso.es/) (RDF, RDFS, OWL, SHACL, ShEx)
 * [RDF Playground](http://rdfplayground.dcc.uchile.cl/) (RDF, RDFS, OWL, SHACL, ShEx)
@@ -70,9 +56,9 @@ The following is a list of resources linked to in the respective examples:
 
 ## Contributing
 
-Please feel free to submit [bug reports](https://github.com/knowledge-graphs-tutorial/examples/issues) and [pull requests](https://github.com/knowledge-graphs-tutorial/examples/pulls)!
+Please feel free to submit [bug reports](https://github.com/Knowledge-Graphs-Book/examples/issues) and [pull requests](https://github.com/knowledge-graphs-tutorial/examples/pulls)!
 
-For example, if you are a lecturer and structures your slides after the paper, you might create additional examples or step-by-step calculations to explain the paper's concepts to your students.
+For example, if you are a lecturer and structure your slides after the paper, you might create additional examples or step-by-step calculations to explain the paper's concepts to your students.
 Feel free to add those to this repository!
 
 ## License
