@@ -1,29 +1,6 @@
-# Knowledge graph paper examples
+# Knowledge Graphs book: examples
 
-This repository contains examples in concrete syntaxes for the Knowledge Graphs book by Hogan et al, which is [freely available online](https://kgbook.org/), with physical copies and ebooks available from [Morgan & Claypool](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1683).
-
-If you find any material in the book or this repository useful, please consider citing it as:
-
-```bibtex
-@book{kg-book,
-  author = {Hogan, Aidan and Blomqvist, Eva and Cochez, Michael and
-d'Amato, Claudia and de Melo, Gerard and Guti\'errez, Claudio and
-Kirrane, Sabrina and Labra Gayo, Jos\'e Emilio and Navigli, Roberto and
-Neumaier, Sebastian and Ngonga Ngomo, Axel-Cyrille and Polleres, Axel and
-Rashid, Sabbir M. and Rula, Anisa and Schmelzeisen, Lukas and
-Sequeda, Juan F. and Staab, Steffen and Zimmermann, Antoine},
-  doi = {10.2200/S01125ED1V01Y202109DSK022},
-  isbn = {9781636392363},
-  language = {English},
-  number = {22},
-  numpages = {237},
-  publisher = {Morgan \& Claypool},
-  series = {Synthesis Lectures on Data, Semantics, and Knowledge},
-  title = {{K}nowledge {G}raphs},
-  url = {https://kgbook.org/},
-  year = {2021}
-}
-```
+This repository contains examples in concrete syntaxes for the Knowledge Graphs book by Hogan et al, which is [freely available online](https://kgbook.org/), with copies and ebooks available for purchase from [Morgan & Claypool](http://www.morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1683).
 
 ## Overview
 
@@ -69,3 +46,28 @@ Feel free to add those to this repository!
 ![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)
 
 To the extent possible under law, the contributors waive all copyright and related or neighboring rights to the contents of this repository.
+
+## Source
+
+If you wish to cite this source, you can use:
+
+```bibtex
+@book{kg-book,
+  author = {Hogan, Aidan and Blomqvist, Eva and Cochez, Michael and
+d'Amato, Claudia and de Melo, Gerard and Guti\'errez, Claudio and
+Kirrane, Sabrina and Labra Gayo, Jos\'e Emilio and Navigli, Roberto and
+Neumaier, Sebastian and Ngonga Ngomo, Axel-Cyrille and Polleres, Axel and
+Rashid, Sabbir M. and Rula, Anisa and Schmelzeisen, Lukas and
+Sequeda, Juan F. and Staab, Steffen and Zimmermann, Antoine},
+  doi = {10.2200/S01125ED1V01Y202109DSK022},
+  isbn = {9781636392363},
+  language = {English},
+  number = {22},
+  numpages = {237},
+  publisher = {Morgan \& Claypool},
+  series = {Synthesis Lectures on Data, Semantics, and Knowledge},
+  title = {{K}nowledge {G}raphs},
+  url = {https://kgbook.org/},
+  year = {2021}
+}
+```
