@@ -1,0 +1,29 @@
+# SPARQL
+# Data: 2_1_1_Directed_edge_labelled_graphs/figure_2_1.ttl
+# Ontology: 4_2_1_Rules/figure4_2_O.ttl (not necessary as already rewritten)
+# Base query: figure11-query.sparql
+# Documentation: https://www.w3.org/TR/sparql11-query/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+
+PREFIX : <http://example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?name {
+  {
+    ?festival rdf:type :Festival .
+  } UNION {
+    ?festival rdf:type :FoodFestival .
+  } UNION {
+    ?festival rdf:type :DrinksFestival .
+  }
+
+  {
+    ?festival :location :Santiago .
+  } UNION {
+    ?festival :venue ?x .
+    ?x :city :Santiago .
+  }
+
+  ?festival :name ?name .
+}
