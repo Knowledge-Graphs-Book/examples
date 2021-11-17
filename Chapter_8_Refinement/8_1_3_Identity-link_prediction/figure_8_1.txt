@@ -1,0 +1,22 @@
+# Turtle
+# Documentation: https://www.w3.org/TR/turtle/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+
+prefix : <http://example.org/>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+:EasterIsland :lat 27.74 ;
+   :long 109.26 ;
+   :population 7400 ;
+   :named :WorldHeritageSite ;
+   :seat :HangaRoa .
+
+:RapaNui :lat 27.8 ;
+   :long 109.2 ;
+   :population 7500 ;
+   :ocean :Pacific ;
+   :seat HangaRoa .
