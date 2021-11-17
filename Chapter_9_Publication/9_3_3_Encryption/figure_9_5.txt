@@ -1,0 +1,19 @@
+# Turtle
+# Documentation: https://www.w3.org/TR/turtle/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+
+prefix : <http://example.org/>
+prefix crytpo: <http://www.peranka.de/crypto/2008/02/11/rdfcrypto#>
+prefix renc: <http://www.peranka.de/crypto/2008/02/11/renc#>
+
+# hidden
+:Claimant-XY12SDA :Claimant-name :JohnSmith .
+:JohnSmith renc:encNLabel :CipherName-XY12SDA .
+
+# public
+:Claimant-XY12SDA crytpo:Claimant-name-enc "zhkOsLjmXqNfmIje2CyykP+QoLEccoTaUm2xCX2tOxFz4Y6ZQcZ9Qe5We19B8n77PhiquM+d7KwxmBXXMoAshpXseCPocDjlMW7QE8Il5flvsB7qFlf7GnarIxrMeHwC54vC60EaZGwxEhuZ9yj4YoV76SdCWNvnV9VALWOYSFYL7pxGXByP8MjXd0yGrWSWIGViwpiThw0dR7lZ2UxGZIiZtA7fp/OoEyhPYslSCAUd6psThVKyuVkUeW8n514oNbp8atKgSdBqWq1EYl63ScvsQ+zmtOEAt2bf2Wobg7b5gHZIcmk34u/j8XtBN6OL79BQi1WRWG+HxvRO3XcC/kjg" .
+
+:CipherName-XY12SDA crytpo:equal "zhkOsLjmXqNfmIje2CyykP+QoLEccoTaUm2xCX2tOxFz4Y6ZQcZ9Qe5We19B8n77PhiquM+d7KwxmBXXMoAshpXseCPocDjlMW7QE8Il5flvsB7qFlf7GnarIxrMeHwC54vC60EaZGwxEhuZ9yj4YoV76SdCWNvnV9VALWOYSFYL7pxGXByP8MjXd0yGrWSWIGViwpiThw0dR7lZ2UxGZIiZtA7fp/OoEyhPYslSCAUd6psThVKyuVkUeW8n514oNbp8atKgSdBqWq1EYl63ScvsQ+zmtOEAt2bf2Wobg7b5gHZIcmk34u/j8XtBN6OL79BQi1WRWG+HxvRO3XcC/kjg" ;
+   crytpo:keyLength 2048 ;
+   crytpo:algorithm :rsa .

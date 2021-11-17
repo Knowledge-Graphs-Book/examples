@@ -1,0 +1,17 @@
+# Turtle
+# Documentation: https://www.w3.org/TR/turtle/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+
+prefix : <http://example.org/>
+prefix odrl: <http://www.w3.org/ns/odrl/2/>
+
+
+:EventGraph odrl:license :EventGraphLicense .
+
+:EventGraphLicense odrl:permission :EventGraphPermission ;
+   odrl:action :Modify , :Distribute , :Derive .
+
+:Modify odrl:obligation :Attribute .
+:Distribute odrl:obligation :Attribute .
+:Derive odrl:obligation :Attribute .

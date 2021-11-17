@@ -1,0 +1,30 @@
+# Turtle
+# Documentation: https://www.w3.org/TR/turtle/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+# Try lod.live: http://en.lodlive.it/ (insert URI http://www.wikidata.org/entity/Q142701)
+# Try Q&D browser: http://graphite.ecs.soton.ac.uk/browser/ (insert URI http://www.wikidata.org/entity/Q142701)
+
+prefix cld: <http://turismo.cl/data/>
+prefix cle: <http://turismo.cl/entity/>
+prefix clv: <http://turismo.cl/vocab/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix wd: <http://www.wikidata.org/entity/>
+prefix wdd: <http://www.wikidata.org/wiki/Special:EntityData/>
+prefix wdt: <http://www.wikidata.org/prop/direct/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# please note that only the wd* IRIs will dereference;
+#  other IRIs are fictitious
+
+# cld:LP2018
+
+cle:LP2018 rdf:type clv:Concert ;
+   clv:headliner wd:Q142701 ;
+   rdfs:label "Lollapalooza 2018" .
+
+# wdd:Q142701.ttl
+
+wd:Q142701 wdt:P571 "1990"^^xsd:gYear ;
+   wdt:P527 wd:Q221535 .

@@ -1,0 +1,14 @@
+# Turtle
+# Documentation: https://www.w3.org/TR/turtle/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+
+prefix : <http://example.org/>
+prefix dpv: <http://www.w3.org/ns/dpv#>
+
+
+:LocationGraphConsentPolicy dpv:hasPurpose :EventRecommendations ;
+   dpv:hasDataSource :LocationGraph ;
+   dpv:hasProcessing :Analyse ;
+   dpv:hasRecipient :CompanyStaff ;
+   dpv:hasStorage :InternalServers .
