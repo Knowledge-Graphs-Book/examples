@@ -1,0 +1,18 @@
+# Turtle
+# Documentation: https://www.w3.org/TR/turtle/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+
+# We use :p to fill the predicate position
+
+prefix : <http://example.org/>
+
+:Iquique :p :bus , :flight .
+
+:bus :p :Arica .
+
+:flight :p :Arica .
+
+:flight :p :Santiago .
+
+:Santiago :p :flight .

@@ -4,8 +4,8 @@
 # Try online: http://rdfplayground.dcc.uchile.cl/
 
 prefix : <http://example.org/>
-prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:Santiago :e :Arica .
-:e :singletonPropertyOf :flight ;
-   :validFrom "1956"^^xsd:gYear .
+:Iquique :bus :Arica ;
+    :flight :Santiago .
+
+:Santiago :flight :Arica .
