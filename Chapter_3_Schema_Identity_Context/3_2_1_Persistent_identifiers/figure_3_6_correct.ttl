@@ -1,0 +1,16 @@
+# Turtle
+# Documentation: https://www.w3.org/TR/turtle/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+
+prefix : <http://example.org/>
+prefix chile: <http://turismo.cl/entity/>
+prefix cuba: <http://turismo.cu/entity/>
+
+# Chile
+chile:SantaLucía :city chile:Santiago .
+chile:Santiago :country chile:Chile .
+
+# Cuba
+cuba:SantaIfigenia :city cuba:Santiago .
+cuba:Santiago :country cuba:Cuba .

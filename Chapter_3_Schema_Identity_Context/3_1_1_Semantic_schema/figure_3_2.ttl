@@ -1,0 +1,29 @@
+# Turtle / RDFS
+# Data: 2_1_1_Directed_edge_labelled_graphs/figure2_1.ttl
+# Documentation: https://www.w3.org/TR/turtle/
+# Documentation: https://www.w3.org/TR/rdf-schema/
+# Try online: http://rdfplayground.dcc.uchile.cl/ (OWL)
+
+prefix : <http://example.org/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+:Festival rdfs:subClassOf :Event .
+
+:PeriodicMarket rdfs:subClassOf :Event .
+
+:City rdfs:subClassOf :Place .
+
+:Venue rdfs:subClassOf :Place .
+
+:venue rdfs:domain :Event .
+:venue rdfs:subPropertyOf :location .
+:venue rdfs:range :Venue .
+
+:location rdfs:range :Place .
+
+:city rdfs:subPropertyOf :location .
+:city rdfs:domain :Place .
+:city rdfs:range :City .
+
+# :SantaLucía :city :Santiago .

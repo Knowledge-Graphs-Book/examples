@@ -1,0 +1,8 @@
+# RDF*
+# Documentation: https://w3c.github.io/rdf-star/cg-spec/
+# Try with software: https://github.com/ruby-rdf/rdf-trig
+
+prefix : <http://example.org/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<< :Santiago :flight :Arica >> :validFrom "1956"^^xsd:gYear .

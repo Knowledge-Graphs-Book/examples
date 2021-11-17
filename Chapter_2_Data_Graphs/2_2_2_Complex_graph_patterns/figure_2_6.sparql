@@ -1,0 +1,22 @@
+# SPARQL 1.1
+# Data: 2_1_1_Directed_edge_labelled_graphs/figure_2_1.ttl
+# Documentation: https://www.w3.org/TR/sparql11-query/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://sparql-playground.sib.swiss/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+
+PREFIX : <http://example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?name1 ?con ?name2 {
+  ?event1 :venue ?ven1 .
+  ?event1 :name ?name1 .
+  ?event1 rdf:type :FoodFestival .
+  ?event2 :venue ?ven2 .
+  ?event2 :name ?name2 .
+  ?event2 rdf:type :FoodFestival .
+  ?ven1 :city ?city1 .
+  ?ven2 :city ?city2 .
+  ?city1 ?con ?city2 .
+  ?city2 ?con ?city1 .
+}
