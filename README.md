@@ -30,9 +30,8 @@ Sequeda, Juan F. and Staab, Steffen and Zimmermann, Antoine},
 The book provides examples in an abstract graphical notation in order to be friendly to newcomers, and to avoid them getting "bogged down" in details relating to syntax.  Nevertheless, for newcomers that are interested to learn how these theoretical concepts are implemented in practice, in this repository we provide concrete implementations of the examples and figures of our paper in various languages and syntaxes.
 
 The examples are divided into folders for each subsection according to [the book](https://kgbook.org/).
-To find a particular example you can also search by the name of a particular figure in the repository (e.g., "figure4", "table2", etc.).
-In cases where there are multiple competing standards to implement some concepts, we try to include all.
-Thus, there are sometimes multiple implementations per figure with different file extensions.
+To find a particular example you can also search by the name of a particular figure in the repository (e.g., "figure_3_9_a", "table_4_1", etc.).
+We may include multiple syntaxes/languages for some examples, indicated with different file extensions.
 
 Since many different file formats and standards are used in this repository, we include pointing to the documentation of the respective standards, indicate where you can try out the examples online, or otherwise where you can find code relating to the example.
 
@@ -55,7 +54,8 @@ The following is a list of resources tht the respective examples link to:
 * [DL Learner](https://dl-learner.org/) (DL Axiom Mining)
 * [DBpedia Spotlight](https://www.dbpedia-spotlight.org/demo/) (Entity Linking)
 * [FRED](http://wit.istc.cnr.it/stlab-tools/fred/demo/?) (Relation Extraction)
-* 
+* [lod.live](http://en.lodlive.it/) (Linked Data Browser)
+* [Q&D Browser](http://graphite.ecs.soton.ac.uk/browser/) (Linked Data Browser)
 
 ## Contributing
 
