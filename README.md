@@ -53,6 +53,9 @@ The following is a list of resources tht the respective examples link to:
 * [GNNs in Pytorch](https://towardsdatascience.com/hands-on-graph-neural-networks-with-pytorch-pytorch-geometric-359487e221a8) (GraphSAGE)
 * [AMIE+](https://github.com/samehkamaleldin/amie_plus) (Rule Mining)
 * [DL Learner](https://dl-learner.org/) (DL Axiom Mining)
+* [DBpedia Spotlight](https://www.dbpedia-spotlight.org/demo/) (Entity Linking)
+* [FRED](http://wit.istc.cnr.it/stlab-tools/fred/demo/?) (Relation Extraction)
+* 
 
 ## Contributing
 

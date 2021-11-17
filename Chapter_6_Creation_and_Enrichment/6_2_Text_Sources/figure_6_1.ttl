@@ -1,0 +1,22 @@
+# Turtle
+# Documentation: https://www.w3.org/TR/turtle/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+# Input "Santiago has flights to Rapi Nui, which was named a World Heritage Site in 1995."
+# Entity Linking demo: https://www.dbpedia-spotlight.org/demo/
+# Relation Extraction demo: http://wit.istc.cnr.it/stlab-tools/fred/demo/?
+
+prefix : <http://example.org/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# binary relations
+
+:Santiago :flight :EasterIsland .
+
+:EasterIsland :named :WorldHeritageSite .
+
+# n-ary relation
+
+[] :patient :EasterIsland ;
+   :name :WorldHeritageSite ;
+   :time "1995"^^xsd:gYear .
