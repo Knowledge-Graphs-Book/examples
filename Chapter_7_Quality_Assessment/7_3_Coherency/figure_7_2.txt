@@ -1,0 +1,26 @@
+# Turtle
+# Documentation: https://www.w3.org/TR/turtle/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+
+prefix : <http://example.org/>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+:FoodFestival rdfs:subClassOf :Festival .
+
+:Festival rdfs:subClassOf :Event .
+
+:Event owl:disjointWith :Place .
+
+:Place owl:disjointWith :Event .
+
+:jurisdiction rdfs:domain :LegalEntity ;
+   rdfs:range :Place .
+
+:Building rdfs:subClassOf :Place .
+
+:Restaurant rdfs:subClassOf :Building .
+
+:service :domain :Restaurant .

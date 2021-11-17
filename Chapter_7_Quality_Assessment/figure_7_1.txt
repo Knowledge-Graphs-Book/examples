@@ -1,0 +1,36 @@
+# Turtle
+# Documentation: https://www.w3.org/TR/turtle/
+# Try online: https://rdfshape.weso.es/
+# Try online: http://rdfplayground.dcc.uchile.cl/
+
+prefix : <http://example.org/>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:EID15 rdf:type :FoodFestival ;
+   :category :OpenMarket ;
+   :duration 7 ;
+   :end "March 29, 2009"^^xsd:date ;
+   :start "March 22, 2019"^^xsd:date ;
+   :service :Takeaway ;
+   :venue :SantaLucía .
+
+:EID17 rdf:type :FoodFestival , :OpenMarket ;
+   :fare :Free ;
+   :days [ :begins "Next Tuesday" ; :ends "Next Thursday" ] ;
+   :venue :LosDominicos .
+
+:SantaLucía :city :Santiago .
+
+:LosDominicos :city :Santiago .
+
+:Santiago :country :Cuba , :Chile ;
+   :age 447 .
+
+:SantiagoDeCuba :country :Cuba ;
+   owl:sameAs :Santiago .
+
+:SantiagoDeChile :country :Chile ;
+   owl:sameAs :Santiago ;
+   owl:differentFrom :SantiagoDeCuba .
