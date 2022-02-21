@@ -12,7 +12,7 @@ Document(
          ?x[ex:domesticFlight->?y] :- And(
             ?x[ex:flight->?y]
             ?y[ex:country->?z]
-			?x[ex:country->?z] ))
+            ?x[ex:country->?z] ))
    )
 )
 
