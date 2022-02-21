@@ -40,7 +40,7 @@ prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # Note that while the definitions could be made
 # more simply as follows:
 #
-# :Dead owl:complementOf :alive .
+# :Dead owl:complementOf :Alive .
 # :Flight owl:unionOf ( :DomesticFlight :InternationalFlight ) .
 # etc.
 #
@@ -48,7 +48,7 @@ prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # not OWL 2 DL compliant (which requires blank nodes
 # for class definitions). Hence we use equivalences:
 #
-# :Dead owl:equivalentClass [ owl:complementOf :alive ] .
+# :Dead owl:equivalentClass [ owl:complementOf :Alive ] .
 # :Flight owl:equivalentClass [ owl:unionOf ( :DomesticFlight :InternationalFlight ) ] .
 # etc.
 
@@ -62,7 +62,7 @@ prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 :City owl:disjointWith :Region .
 
 # Complement
-:Dead owl:equivalentClass [ owl:complementOf :alive ] .
+:Dead owl:equivalentClass [ owl:complementOf :Alive ] .
 
 # Union
 :Flight owl:equivalentClass [ owl:unionOf ( :DomesticFlight :InternationalFlight ) ] .
