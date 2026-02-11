@@ -8,8 +8,8 @@ prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 chile:Chile chile:peaks _:l1 .
 _:l1 rdf:first chile:OjosDelSalado .
-_:l1 rdf:next _:l2 .
+_:l1 rdf:rest _:l2 .
 _:l2 rdf:first chile:NevadoTresCruces .
-_:l2 rdf:next _:l3 .
+_:l2 rdf:rest _:l3 .
 _:l3 rdf:first chile:Llullaillaco .
-_:l3 rdf:next rdf:nil .
+_:l3 rdf:rest rdf:nil .
